@@ -25,3 +25,50 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#add-new-item {
+  width: 100%;
+}
+
+input {
+  border-radius: 1rem;
+  padding: 1rem;
+  width: 100%;
+}
+
+#filter li {
+  float: left;
+  margin: 1rem 0.5rem;
+  background-color: #3aa6b9;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+#filter li:first-of-type {
+  margin-left: 0 !important;
+}
+
+.item {
+  display: flex;
+  background: #c1ece4;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  align-items: center;
+}
+
+.item button {
+  float: right;
+  background-color: #3aa6b9;
+  border-radius: 0.5rem;
+  padding: 0.25rem 1rem;
+  order: 2;
+  margin-left: auto;
+  color: #fff;
+}
