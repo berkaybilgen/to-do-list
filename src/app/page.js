@@ -33,7 +33,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col p-24">
       <Add UpdateList={updateList} />
-      <Filter FilterMethod={filter} />
+      <Filter Items={list} FilterMethod={filter} />
       <List Items={list} Complete={complete} Filter={filterValue} />
     </main>
   );
